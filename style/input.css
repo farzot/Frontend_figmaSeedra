@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-4xl
+    }
+}
+
+@layer components{
+    .primary-btn{
+        @apply cursor-pointer border-0 py-5 px-10 bg-orange-600
+    }
+}
